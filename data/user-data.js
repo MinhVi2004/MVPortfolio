@@ -6,9 +6,14 @@ export const userData = {
   linkedIn: 'https://www.linkedin.com/in/minh-vi-d%C6%B0%C6%A1ng-v%C4%83n-a4265a355/',
   twitter: '#',
   stackOverflow: '#',
-  leetcode: 'https://leetcode.com/u/minhvi123z/',
   resume: '#',
-  languages: ['PHP', 'Javascript', 'Python', 'Java', 'HTML/CSS'],
-  technologies: ['React', 'Java Spring Boot', 'MySQL'],
+
+  skills: {
+    languages: ['PHP', 'JavaScript', 'Java'],
+    frameworks: ['React', 'Node.js', 'Express', 'Spring Boot'],
+    databases: ['MySQL', 'MongoDB', 'SQL Server'],
+    others: ['REST API', 'JWT', 'Git', 'Liquid']
+  },
+
   timezone: '+7'
 };
