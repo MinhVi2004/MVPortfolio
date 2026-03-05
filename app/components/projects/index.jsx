@@ -13,7 +13,7 @@ const Projects = ({ projects, profile }) => {
       <SectionTitle title="Git Projects" />
 
       <div className="grid py-12 grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8">
-        {projects.map((project) => (
+        {projects?.map((project) => (
           <GlowCard key={project.id} identifier={`project-${project.id}`}>
             <ProjectCard project={project} />
           </GlowCard>
