@@ -50,7 +50,7 @@ export default function Home() {
       {profile && <SetFavicon iconUrl={profile.avatar_url} />}
 
       {profile && <HeroSection profile={profile} />}
-      <GitStats />
+      {/* <GitStats /> */}
       <Projects projects={projects} profile={profile} />
       <GitLanguage />
       <Rank />

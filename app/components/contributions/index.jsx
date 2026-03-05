@@ -11,7 +11,7 @@ function Contributions() {
 
       <div className="w-full flex justify-center py-12">
         <GitHubCalendar
-          username="AnhNgo1702"
+          username="MinhVi2004"
           blockSize={14}
         />
       </div>
